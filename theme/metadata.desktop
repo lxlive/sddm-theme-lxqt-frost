@@ -1,6 +1,6 @@
 [SddmGreeterTheme]
-Name=patience
-Description=Patience sddm theme
+Name=lxqt-frost
+Description=LXQt frost sddm theme
 Type=sddm-theme
 Author=Hendrik Lehmbruch
 Copyright=2016, Hendrik Lehmbruch
@@ -10,6 +10,6 @@ Version=0.1
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Theme-Id=patience
+Theme-Id=lxqt-frost
 Theme-API=2.0
-Website=https://github.com/siduction/sddm-theme-deepspace
+Website=https://github.com/lxlive/sddm-theme

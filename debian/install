@@ -1,3 +1,3 @@
-theme/* usr/share/sddm/themes/patience/
-preview.jpg /usr/share/sddm/themes/patience/images/
-etc
+theme/*       usr/share/sddm/themes/lxqt-frost/
+preview.jpg   usr/share/sddm/themes/lxqt-frost/images/
+etc/sddm.conf usr/share/sddm/lxqt-frost/

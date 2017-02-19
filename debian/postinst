@@ -8,11 +8,11 @@ set -e
 case "$1" in
     configure)
         # keep the old configuration
-#       if [ -f /etc/sddm.conf ]; then
-#           cp -f /usr/share/sddm/themes/patience/sddm.conf /etc/sddm.conf.dpkg-new
-#       else
-#           cp -f /usr/share/sddm/themes/patience/sddm.conf /etc/sddm.conf
-#       fi
+        if [ -f /etc/sddm.conf ]; then
+            cp -f /usr/share/sddm/lxqt-frost/sddm.conf /etc/sddm.conf.dpkg-new
+        else
+            cp -f /usr/share/sddm/lxqt-frost/sddm.conf /etc/sddm.conf
+        fi
     ;;
 
     abort-upgrade|abort-remove|abort-deconfigure)
@@ -27,3 +27,4 @@ esac
 #DEBHELPER#
 
 exit 0
+	

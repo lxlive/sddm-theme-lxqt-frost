@@ -281,7 +281,7 @@ Rectangle {
                             width: 250;
                             height: 32
                             color: "transparent"
-                            anchors.topMargin:15
+                            anchors.topMargin:20
                             anchors.top: parent.top
                             Row {
                                 id: buttonRow

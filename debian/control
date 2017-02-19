@@ -1,23 +1,23 @@
-Source: sddm-theme-patience
+Source: sddm-theme-lxqt-frost
 Maintainer: Alf Gaida <agaida@siduction.org>
 Uploaders: Hendrik Lehmbruch <hendrikl@siduction.org>
 Section: x11
 Priority: optional
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper (>= 10)
 Standards-Version: 3.9.8
-#Vcs-Browser: http://git.siduction.org/extra/sddm-theme-siduction
-#Vcs-Git: https://git.siduction.org/extra/sddm-theme-siduction
-#Homepage: https://git.siduction.org/extra/
+Vcs-Browser: http://github.com/lxlive/sddm-theme-lxqt-frost
+Vcs-Git: https://github.com/lxlive/sddm-theme-lxqt-frost
+Homepage: https://github.com/lxlive/sddm-theme-lxqt-frost
 
-Package: sddm-theme-patience
+Package: sddm-theme-lxqt-frost
 Architecture: all
 Depends: ${misc:Depends},
-         patience-wallpapers,
+         lxqt-common,
          qml-module-qtgraphicaleffects,
          qml-module-qtquick-controls
 Recommends: sddm
 Provides: sddm-theme
-Description: patience theme for sddm
- Siduction "Patience" sddm theme.
+Description: lxqt-frost theme for sddm
+ LXQt "Frost" sddm theme.
  .
  This package contain a sddm theme.
